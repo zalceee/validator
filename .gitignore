@@ -1,5 +1,5 @@
 /build
 /dist
 /venv
-main.spec
+*.spec
 *.csv
