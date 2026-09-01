@@ -630,7 +630,7 @@ print(
 )
 
 print(
-    f"Records               : {len(output):,}"
+    f"Manual SI Count       : {output['Manual SI Number'].nunique():,}"
 )
 
 print(
