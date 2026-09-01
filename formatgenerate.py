@@ -617,9 +617,9 @@ except Exception as e:
 # ============================================================
 
 print()
-print("========================================")
+print("="*50)
 print("        INVC CSV CREATED")
-print("========================================")
+print("="*50)
 
 print(
     f"Source File           : {input_file}"
@@ -637,7 +637,7 @@ print(
     f"Output File           : {output_file}"
 )
 
-print("----------------------------------------")
+print("-"*50)
 
 print(
     f"Total Net Sales       : {total_net_sales:,.2f}"
@@ -651,4 +651,4 @@ print(
     f"Credit Card Net Sales : {credit_card_net_sales:,.2f}"
 )
 
-print("========================================")
+print("="*50)
