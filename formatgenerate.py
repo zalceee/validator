@@ -634,6 +634,14 @@ print(
 )
 
 print(
+    f"Manual SI Start       : {output['Manual SI Number'].min()}"
+)
+
+print(
+    f"Manual SI End         : {output['Manual SI Number'].max()}"
+)
+
+print(
     f"Output File           : {output_file}"
 )
 
@@ -646,6 +654,7 @@ print(
 print(
     f"Cash Net Sales        : {cash_net_sales:,.2f}"
 )
+
 
 print(
     f"Credit Card Net Sales : {credit_card_net_sales:,.2f}"
